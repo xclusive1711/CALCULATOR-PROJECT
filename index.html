@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="calculator.css">
+        <title>MyCalculator</title>
+    </head>
+    <body>
+        <div class="outerbody">
+            <div class="innerbody">
+                <input type="text" id="mytext" placeholder="xclusive calculator"><br>
+                <button class="left" onclick="calculate(1)">1</button>
+                <button onclick="calculate(2)">2</button>
+                <button onclick="calculate(3)">3</button>
+                <button onclick="calculate(4)">4</button>
+                <button class="right" onclick="calculate(5)">5</button><br>
+                <button class="left" onclick="calculate(6)">6</button>
+                <button onclick="calculate(7)">7</button>
+                <button onclick="calculate(8)">8</button>
+                <button onclick="calculate(9)">9</button>
+                <button class="right" onclick="calculate(0)">0</button><br>
+                <button class="left" onclick="calculate('*')">*</button>
+                <button onclick="calculate('/')">/</button>
+                <button onclick="calculate('+')">+</button>
+                <button onclick="calculate('-')">-</button>
+                <button class="right" onclick="calculate('%')">%</button><br>
+                <button class="left" onclick="equals()" style="width: 85px;margin-right: 20px;">=</button>
+                <button onclick="del()" class="width">DEL</button>
+                <button onclick="clearinput()" class="width">CLR</button>
+            </div>
+        <script src="Calculator.js"></script>
+    </div>
+    </body>
+</html>
